@@ -1,0 +1,385 @@
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/ApplicationInsights.config
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/roslyn/csc.exe
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/roslyn/csc.exe.config
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/roslyn/csc.rsp
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/roslyn/csi.exe
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/roslyn/csi.rsp
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/roslyn/Microsoft.CodeAnalysis.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/roslyn/Microsoft.CSharp.Core.targets
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/roslyn/Microsoft.VisualBasic.Core.targets
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/roslyn/System.AppContext.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/roslyn/System.Collections.Immutable.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/roslyn/System.Diagnostics.StackTrace.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/roslyn/System.IO.FileSystem.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/roslyn/System.IO.FileSystem.Primitives.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/roslyn/System.Reflection.Metadata.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/roslyn/vbc.exe
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/roslyn/vbc.exe.config
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/roslyn/vbc.rsp
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/roslyn/VBCSCompiler.exe
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/roslyn/VBCSCompiler.exe.config
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/Events.dll.config
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/Events.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/Events.pdb
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/Antlr3.Runtime.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/Connection.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/Microsoft.AI.Agent.Intercept.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/Microsoft.AI.DependencyCollector.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/Microsoft.AI.PerfCounterCollector.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/Microsoft.AI.ServerTelemetryChannel.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/Microsoft.AI.Web.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/Microsoft.AI.WindowsServer.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/Microsoft.ApplicationInsights.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/Microsoft.Web.Infrastructure.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/Newtonsoft.Json.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/System.Web.Helpers.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/System.Web.Mvc.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/System.Web.Optimization.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/System.Web.Razor.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/System.Web.WebPages.Deployment.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/System.Web.WebPages.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/System.Web.WebPages.Razor.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/WebGrease.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/MySql.Data.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/Connection.pdb
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/System.Web.Helpers.xml
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/System.Web.Mvc.xml
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/System.Web.Optimization.xml
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/System.Web.Razor.xml
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/System.Web.WebPages.xml
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/System.Web.WebPages.Deployment.xml
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/System.Web.WebPages.Razor.xml
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/Antlr3.Runtime.pdb
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/Newtonsoft.Json.xml
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/Microsoft.ApplicationInsights.xml
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/Microsoft.AI.DependencyCollector.xml
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/Microsoft.AI.ServerTelemetryChannel.xml
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/Microsoft.AI.WindowsServer.xml
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/Microsoft.AI.Web.xml
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/es/System.Web.Helpers.resources.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/es/System.Web.Mvc.resources.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/es/System.Web.Optimization.resources.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/es/System.Web.Razor.resources.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/es/System.Web.WebPages.resources.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/es/System.Web.WebPages.Deployment.resources.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/bin/es/System.Web.WebPages.Razor.resources.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/obj/Debug/Events.csprojResolveAssemblyReference.cache
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/obj/Debug/Events.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Events/obj/Debug/Events.pdb
+C:/Users/jualv/Desktop/Events/Events/Events/bin/ApplicationInsights.config
+C:/Users/jualv/Desktop/Events/Events/Events/bin/roslyn/csc.exe
+C:/Users/jualv/Desktop/Events/Events/Events/bin/roslyn/csc.exe.config
+C:/Users/jualv/Desktop/Events/Events/Events/bin/roslyn/csc.rsp
+C:/Users/jualv/Desktop/Events/Events/Events/bin/roslyn/csi.exe
+C:/Users/jualv/Desktop/Events/Events/Events/bin/roslyn/csi.rsp
+C:/Users/jualv/Desktop/Events/Events/Events/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/roslyn/Microsoft.CodeAnalysis.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/roslyn/Microsoft.CSharp.Core.targets
+C:/Users/jualv/Desktop/Events/Events/Events/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/roslyn/Microsoft.VisualBasic.Core.targets
+C:/Users/jualv/Desktop/Events/Events/Events/bin/roslyn/System.AppContext.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/roslyn/System.Collections.Immutable.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/roslyn/System.Diagnostics.StackTrace.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/roslyn/System.IO.FileSystem.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/roslyn/System.IO.FileSystem.Primitives.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/roslyn/System.Reflection.Metadata.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/roslyn/vbc.exe
+C:/Users/jualv/Desktop/Events/Events/Events/bin/roslyn/vbc.exe.config
+C:/Users/jualv/Desktop/Events/Events/Events/bin/roslyn/vbc.rsp
+C:/Users/jualv/Desktop/Events/Events/Events/bin/roslyn/VBCSCompiler.exe
+C:/Users/jualv/Desktop/Events/Events/Events/bin/roslyn/VBCSCompiler.exe.config
+C:/Users/jualv/Desktop/Events/Events/Events/bin/Events.dll.config
+C:/Users/jualv/Desktop/Events/Events/Events/bin/Events.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/Events.pdb
+C:/Users/jualv/Desktop/Events/Events/Events/bin/Antlr3.Runtime.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/Connection.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/Microsoft.AI.Agent.Intercept.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/Microsoft.AI.DependencyCollector.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/Microsoft.AI.PerfCounterCollector.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/Microsoft.AI.ServerTelemetryChannel.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/Microsoft.AI.Web.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/Microsoft.AI.WindowsServer.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/Microsoft.ApplicationInsights.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/Microsoft.Web.Infrastructure.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/Newtonsoft.Json.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/System.Web.Helpers.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/System.Web.Mvc.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/System.Web.Optimization.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/System.Web.Razor.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/System.Web.WebPages.Deployment.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/System.Web.WebPages.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/System.Web.WebPages.Razor.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/WebGrease.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/MySql.Data.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/Connection.pdb
+C:/Users/jualv/Desktop/Events/Events/Events/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:/Users/jualv/Desktop/Events/Events/Events/bin/System.Web.Helpers.xml
+C:/Users/jualv/Desktop/Events/Events/Events/bin/System.Web.Mvc.xml
+C:/Users/jualv/Desktop/Events/Events/Events/bin/System.Web.Optimization.xml
+C:/Users/jualv/Desktop/Events/Events/Events/bin/System.Web.Razor.xml
+C:/Users/jualv/Desktop/Events/Events/Events/bin/System.Web.WebPages.xml
+C:/Users/jualv/Desktop/Events/Events/Events/bin/System.Web.WebPages.Deployment.xml
+C:/Users/jualv/Desktop/Events/Events/Events/bin/System.Web.WebPages.Razor.xml
+C:/Users/jualv/Desktop/Events/Events/Events/bin/Antlr3.Runtime.pdb
+C:/Users/jualv/Desktop/Events/Events/Events/bin/Newtonsoft.Json.xml
+C:/Users/jualv/Desktop/Events/Events/Events/bin/Microsoft.ApplicationInsights.xml
+C:/Users/jualv/Desktop/Events/Events/Events/bin/Microsoft.AI.DependencyCollector.xml
+C:/Users/jualv/Desktop/Events/Events/Events/bin/Microsoft.AI.ServerTelemetryChannel.xml
+C:/Users/jualv/Desktop/Events/Events/Events/bin/Microsoft.AI.WindowsServer.xml
+C:/Users/jualv/Desktop/Events/Events/Events/bin/Microsoft.AI.Web.xml
+C:/Users/jualv/Desktop/Events/Events/Events/bin/es/System.Web.Helpers.resources.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/es/System.Web.Mvc.resources.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/es/System.Web.Optimization.resources.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/es/System.Web.Razor.resources.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/es/System.Web.WebPages.resources.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/es/System.Web.WebPages.Deployment.resources.dll
+C:/Users/jualv/Desktop/Events/Events/Events/bin/es/System.Web.WebPages.Razor.resources.dll
+C:/Users/jualv/Desktop/Events/Events/Events/obj/Debug/Events.csprojResolveAssemblyReference.cache
+C:/Users/jualv/Desktop/Events/Events/Events/obj/Debug/Events.dll
+C:/Users/jualv/Desktop/Events/Events/Events/obj/Debug/Events.pdb
+/Users/macair/Desktop/Events/Events/Events/bin/ApplicationInsights.config
+/Users/macair/Desktop/Events/Events/Events/bin/roslyn/csc.exe
+/Users/macair/Desktop/Events/Events/Events/bin/roslyn/csc.exe.config
+/Users/macair/Desktop/Events/Events/Events/bin/roslyn/csc.rsp
+/Users/macair/Desktop/Events/Events/Events/bin/roslyn/csi.exe
+/Users/macair/Desktop/Events/Events/Events/bin/roslyn/csi.rsp
+/Users/macair/Desktop/Events/Events/Events/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll
+/Users/macair/Desktop/Events/Events/Events/bin/roslyn/Microsoft.VisualBasic.Core.targets
+/Users/macair/Desktop/Events/Events/Events/bin/roslyn/System.AppContext.dll
+/Users/macair/Desktop/Events/Events/Events/bin/roslyn/System.Collections.Immutable.dll
+/Users/macair/Desktop/Events/Events/Events/bin/roslyn/System.Diagnostics.StackTrace.dll
+/Users/macair/Desktop/Events/Events/Events/bin/roslyn/System.IO.FileSystem.dll
+/Users/macair/Desktop/Events/Events/Events/bin/roslyn/System.IO.FileSystem.Primitives.dll
+/Users/macair/Desktop/Events/Events/Events/bin/roslyn/System.Reflection.Metadata.dll
+/Users/macair/Desktop/Events/Events/Events/bin/roslyn/vbc.exe
+/Users/macair/Desktop/Events/Events/Events/bin/roslyn/vbc.exe.config
+/Users/macair/Desktop/Events/Events/Events/bin/roslyn/vbc.rsp
+/Users/macair/Desktop/Events/Events/Events/bin/roslyn/VBCSCompiler.exe
+/Users/macair/Desktop/Events/Events/Events/bin/roslyn/VBCSCompiler.exe.config
+/Users/macair/Desktop/Events/Events/Events/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+/Users/macair/Desktop/Events/Events/Events/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+/Users/macair/Desktop/Events/Events/Events/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+/Users/macair/Desktop/Events/Events/Events/bin/roslyn/Microsoft.CodeAnalysis.dll
+/Users/macair/Desktop/Events/Events/Events/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll
+/Users/macair/Desktop/Events/Events/Events/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+/Users/macair/Desktop/Events/Events/Events/bin/roslyn/Microsoft.CSharp.Core.targets
+/Users/macair/Desktop/Events/Events/Events/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll
+/Users/macair/Desktop/Events/Events/Events/bin/Events.dll
+/Users/macair/Desktop/Events/Events/Events/bin/Events.pdb
+/Users/macair/Desktop/Events/Events/Events/bin/Antlr3.Runtime.dll
+/Users/macair/Desktop/Events/Events/Events/bin/Connection.dll
+/Users/macair/Desktop/Events/Events/Events/bin/Microsoft.AI.Agent.Intercept.dll
+/Users/macair/Desktop/Events/Events/Events/bin/Microsoft.AI.DependencyCollector.dll
+/Users/macair/Desktop/Events/Events/Events/bin/Microsoft.AI.PerfCounterCollector.dll
+/Users/macair/Desktop/Events/Events/Events/bin/Microsoft.AI.ServerTelemetryChannel.dll
+/Users/macair/Desktop/Events/Events/Events/bin/Microsoft.AI.Web.dll
+/Users/macair/Desktop/Events/Events/Events/bin/Microsoft.AI.WindowsServer.dll
+/Users/macair/Desktop/Events/Events/Events/bin/Microsoft.ApplicationInsights.dll
+/Users/macair/Desktop/Events/Events/Events/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+/Users/macair/Desktop/Events/Events/Events/bin/Microsoft.Web.Infrastructure.dll
+/Users/macair/Desktop/Events/Events/Events/bin/Newtonsoft.Json.dll
+/Users/macair/Desktop/Events/Events/Events/bin/System.Web.Helpers.dll
+/Users/macair/Desktop/Events/Events/Events/bin/System.Web.Mvc.dll
+/Users/macair/Desktop/Events/Events/Events/bin/System.Web.Optimization.dll
+/Users/macair/Desktop/Events/Events/Events/bin/System.Web.Razor.dll
+/Users/macair/Desktop/Events/Events/Events/bin/System.Web.WebPages.Deployment.dll
+/Users/macair/Desktop/Events/Events/Events/bin/System.Web.WebPages.dll
+/Users/macair/Desktop/Events/Events/Events/bin/System.Web.WebPages.Razor.dll
+/Users/macair/Desktop/Events/Events/Events/bin/WebGrease.dll
+/Users/macair/Desktop/Events/Events/Events/bin/MySql.Data.dll
+/Users/macair/Desktop/Events/Events/Events/bin/Connection.pdb
+/Users/macair/Desktop/Events/Events/Events/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+/Users/macair/Desktop/Events/Events/Events/bin/System.Web.Helpers.xml
+/Users/macair/Desktop/Events/Events/Events/bin/System.Web.Mvc.xml
+/Users/macair/Desktop/Events/Events/Events/bin/System.Web.Optimization.xml
+/Users/macair/Desktop/Events/Events/Events/bin/System.Web.Razor.xml
+/Users/macair/Desktop/Events/Events/Events/bin/System.Web.WebPages.xml
+/Users/macair/Desktop/Events/Events/Events/bin/System.Web.WebPages.Deployment.xml
+/Users/macair/Desktop/Events/Events/Events/bin/System.Web.WebPages.Razor.xml
+/Users/macair/Desktop/Events/Events/Events/bin/Antlr3.Runtime.pdb
+/Users/macair/Desktop/Events/Events/Events/bin/Newtonsoft.Json.xml
+/Users/macair/Desktop/Events/Events/Events/bin/Microsoft.ApplicationInsights.xml
+/Users/macair/Desktop/Events/Events/Events/bin/Microsoft.AI.DependencyCollector.xml
+/Users/macair/Desktop/Events/Events/Events/bin/Microsoft.AI.ServerTelemetryChannel.xml
+/Users/macair/Desktop/Events/Events/Events/bin/Microsoft.AI.WindowsServer.xml
+/Users/macair/Desktop/Events/Events/Events/bin/Microsoft.AI.Web.xml
+/Users/macair/Desktop/Events/Events/Events/bin/es/System.Web.Helpers.resources.dll
+/Users/macair/Desktop/Events/Events/Events/bin/es/System.Web.Mvc.resources.dll
+/Users/macair/Desktop/Events/Events/Events/bin/es/System.Web.Optimization.resources.dll
+/Users/macair/Desktop/Events/Events/Events/bin/es/System.Web.Razor.resources.dll
+/Users/macair/Desktop/Events/Events/Events/bin/es/System.Web.WebPages.resources.dll
+/Users/macair/Desktop/Events/Events/Events/bin/es/System.Web.WebPages.Deployment.resources.dll
+/Users/macair/Desktop/Events/Events/Events/bin/es/System.Web.WebPages.Razor.resources.dll
+/Users/macair/Desktop/Events/Events/Events/obj/Debug/Events.csprojResolveAssemblyReference.cache
+/Users/macair/Desktop/Events/Events/Events/obj/Debug/Events.csproj.CoreCompileInputs.cache
+/Users/macair/Desktop/Events/Events/Events/obj/Debug/Events.dll
+/Users/macair/Desktop/Events/Events/Events/obj/Debug/Events.pdb
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/ApplicationInsights.config
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/roslyn/csc.exe
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/roslyn/csc.exe.config
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/roslyn/csc.rsp
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/roslyn/csi.exe
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/roslyn/csi.rsp
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/roslyn/Microsoft.CodeAnalysis.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/roslyn/Microsoft.CSharp.Core.targets
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/roslyn/Microsoft.VisualBasic.Core.targets
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/roslyn/System.AppContext.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/roslyn/System.Collections.Immutable.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/roslyn/System.Diagnostics.StackTrace.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/roslyn/System.IO.FileSystem.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/roslyn/System.IO.FileSystem.Primitives.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/roslyn/System.Reflection.Metadata.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/roslyn/vbc.exe
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/roslyn/vbc.exe.config
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/roslyn/vbc.rsp
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/roslyn/VBCSCompiler.exe
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/roslyn/VBCSCompiler.exe.config
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/Events.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/Events.pdb
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/Antlr3.Runtime.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/Connection.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/Microsoft.AI.Agent.Intercept.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/Microsoft.AI.DependencyCollector.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/Microsoft.AI.PerfCounterCollector.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/Microsoft.AI.ServerTelemetryChannel.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/Microsoft.AI.Web.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/Microsoft.AI.WindowsServer.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/Microsoft.ApplicationInsights.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/Microsoft.Web.Infrastructure.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/Newtonsoft.Json.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/System.Web.Helpers.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/System.Web.Mvc.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/System.Web.Optimization.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/System.Web.Razor.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/System.Web.WebPages.Deployment.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/System.Web.WebPages.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/System.Web.WebPages.Razor.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/WebGrease.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/MySql.Data.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/Connection.pdb
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/System.Web.Helpers.xml
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/System.Web.Mvc.xml
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/System.Web.Optimization.xml
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/System.Web.Razor.xml
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/System.Web.WebPages.xml
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/System.Web.WebPages.Deployment.xml
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/System.Web.WebPages.Razor.xml
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/Antlr3.Runtime.pdb
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/Newtonsoft.Json.xml
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/Microsoft.ApplicationInsights.xml
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/Microsoft.AI.DependencyCollector.xml
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/Microsoft.AI.ServerTelemetryChannel.xml
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/Microsoft.AI.WindowsServer.xml
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/Microsoft.AI.Web.xml
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/es/System.Web.Helpers.resources.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/es/System.Web.Mvc.resources.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/es/System.Web.Optimization.resources.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/es/System.Web.Razor.resources.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/es/System.Web.WebPages.resources.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/es/System.Web.WebPages.Deployment.resources.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/bin/es/System.Web.WebPages.Razor.resources.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/obj/Debug/Events.csprojResolveAssemblyReference.cache
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/obj/Debug/Events.csproj.CoreCompileInputs.cache
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/obj/Debug/Events.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Events/obj/Debug/Events.pdb
+G:/Events/Events/Events/obj/Debug/Events.csprojResolveAssemblyReference.cache
+G:/Events/Events/Events/obj/Debug/Events.dll
+G:/Events/Events/Events/obj/Debug/Events.pdb
+G:/Events/Events/Events/bin/ApplicationInsights.config
+G:/Events/Events/Events/bin/roslyn/csc.exe
+G:/Events/Events/Events/bin/roslyn/csc.exe.config
+G:/Events/Events/Events/bin/roslyn/csc.rsp
+G:/Events/Events/Events/bin/roslyn/csi.exe
+G:/Events/Events/Events/bin/roslyn/csi.rsp
+G:/Events/Events/Events/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+G:/Events/Events/Events/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+G:/Events/Events/Events/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:/Events/Events/Events/bin/roslyn/Microsoft.CodeAnalysis.dll
+G:/Events/Events/Events/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll
+G:/Events/Events/Events/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+G:/Events/Events/Events/bin/roslyn/Microsoft.CSharp.Core.targets
+G:/Events/Events/Events/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll
+G:/Events/Events/Events/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll
+G:/Events/Events/Events/bin/roslyn/Microsoft.VisualBasic.Core.targets
+G:/Events/Events/Events/bin/roslyn/System.AppContext.dll
+G:/Events/Events/Events/bin/roslyn/System.Collections.Immutable.dll
+G:/Events/Events/Events/bin/roslyn/System.Diagnostics.StackTrace.dll
+G:/Events/Events/Events/bin/roslyn/System.IO.FileSystem.dll
+G:/Events/Events/Events/bin/roslyn/System.IO.FileSystem.Primitives.dll
+G:/Events/Events/Events/bin/roslyn/System.Reflection.Metadata.dll
+G:/Events/Events/Events/bin/roslyn/vbc.exe
+G:/Events/Events/Events/bin/roslyn/vbc.exe.config
+G:/Events/Events/Events/bin/roslyn/vbc.rsp
+G:/Events/Events/Events/bin/roslyn/VBCSCompiler.exe
+G:/Events/Events/Events/bin/roslyn/VBCSCompiler.exe.config
+G:/Events/Events/Events/bin/Events.dll.config
+G:/Events/Events/Events/bin/Events.dll
+G:/Events/Events/Events/bin/Events.pdb
+G:/Events/Events/Events/bin/Antlr3.Runtime.dll
+G:/Events/Events/Events/bin/Connection.dll
+G:/Events/Events/Events/bin/Microsoft.AI.Agent.Intercept.dll
+G:/Events/Events/Events/bin/Microsoft.AI.DependencyCollector.dll
+G:/Events/Events/Events/bin/Microsoft.AI.PerfCounterCollector.dll
+G:/Events/Events/Events/bin/Microsoft.AI.ServerTelemetryChannel.dll
+G:/Events/Events/Events/bin/Microsoft.AI.Web.dll
+G:/Events/Events/Events/bin/Microsoft.AI.WindowsServer.dll
+G:/Events/Events/Events/bin/Microsoft.ApplicationInsights.dll
+G:/Events/Events/Events/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:/Events/Events/Events/bin/Microsoft.Web.Infrastructure.dll
+G:/Events/Events/Events/bin/Newtonsoft.Json.dll
+G:/Events/Events/Events/bin/System.Web.Helpers.dll
+G:/Events/Events/Events/bin/System.Web.Mvc.dll
+G:/Events/Events/Events/bin/System.Web.Optimization.dll
+G:/Events/Events/Events/bin/System.Web.Razor.dll
+G:/Events/Events/Events/bin/System.Web.WebPages.Deployment.dll
+G:/Events/Events/Events/bin/System.Web.WebPages.dll
+G:/Events/Events/Events/bin/System.Web.WebPages.Razor.dll
+G:/Events/Events/Events/bin/WebGrease.dll
+G:/Events/Events/Events/bin/MySql.Data.dll
+G:/Events/Events/Events/bin/Connection.pdb
+G:/Events/Events/Events/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:/Events/Events/Events/bin/System.Web.Helpers.xml
+G:/Events/Events/Events/bin/System.Web.Mvc.xml
+G:/Events/Events/Events/bin/System.Web.Optimization.xml
+G:/Events/Events/Events/bin/System.Web.Razor.xml
+G:/Events/Events/Events/bin/System.Web.WebPages.xml
+G:/Events/Events/Events/bin/System.Web.WebPages.Deployment.xml
+G:/Events/Events/Events/bin/System.Web.WebPages.Razor.xml
+G:/Events/Events/Events/bin/Antlr3.Runtime.pdb
+G:/Events/Events/Events/bin/Newtonsoft.Json.xml
+G:/Events/Events/Events/bin/Microsoft.ApplicationInsights.xml
+G:/Events/Events/Events/bin/Microsoft.AI.DependencyCollector.xml
+G:/Events/Events/Events/bin/Microsoft.AI.ServerTelemetryChannel.xml
+G:/Events/Events/Events/bin/Microsoft.AI.WindowsServer.xml
+G:/Events/Events/Events/bin/Microsoft.AI.Web.xml
+G:/Events/Events/Events/bin/es/System.Web.Helpers.resources.dll
+G:/Events/Events/Events/bin/es/System.Web.Mvc.resources.dll
+G:/Events/Events/Events/bin/es/System.Web.Optimization.resources.dll
+G:/Events/Events/Events/bin/es/System.Web.Razor.resources.dll
+G:/Events/Events/Events/bin/es/System.Web.WebPages.resources.dll
+G:/Events/Events/Events/bin/es/System.Web.WebPages.Deployment.resources.dll
+G:/Events/Events/Events/bin/es/System.Web.WebPages.Razor.resources.dll

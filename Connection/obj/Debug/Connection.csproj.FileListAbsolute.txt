@@ -1,0 +1,34 @@
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Connection/bin/Debug/Connection.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Connection/bin/Debug/Connection.pdb
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Connection/bin/Debug/MySql.Data.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Connection/obj/Debug/Connection.csprojResolveAssemblyReference.cache
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Connection/obj/Debug/Connection.dll
+C:/Users/jualv/Google Drive/Universidad/ProgramacionWEB/2018/App/Events/Connection/obj/Debug/Connection.pdb
+C:/Users/jualv/Desktop/Events/Events/Connection/bin/Debug/Connection.dll
+C:/Users/jualv/Desktop/Events/Events/Connection/bin/Debug/Connection.pdb
+C:/Users/jualv/Desktop/Events/Events/Connection/bin/Debug/MySql.Data.dll
+C:/Users/jualv/Desktop/Events/Events/Connection/obj/Debug/Connection.csprojResolveAssemblyReference.cache
+C:/Users/jualv/Desktop/Events/Events/Connection/obj/Debug/Connection.dll
+C:/Users/jualv/Desktop/Events/Events/Connection/obj/Debug/Connection.pdb
+/Users/macair/Desktop/Events/Events/Connection/bin/Debug/Connection.dll
+/Users/macair/Desktop/Events/Events/Connection/bin/Debug/Connection.pdb
+/Users/macair/Desktop/Events/Events/Connection/obj/Debug/Connection.csprojResolveAssemblyReference.cache
+/Users/macair/Desktop/Events/Events/Connection/obj/Debug/Connection.csproj.CoreCompileInputs.cache
+/Users/macair/Desktop/Events/Events/Connection/obj/Debug/Connection.dll
+/Users/macair/Desktop/Events/Events/Connection/obj/Debug/Connection.pdb
+G:/Events/Events/Connection/bin/Debug/Connection.dll
+G:/Events/Events/Connection/bin/Debug/Connection.pdb
+G:/Events/Events/Connection/bin/Debug/MySql.Data.dll
+G:/Events/Events/Connection/obj/Debug/Connection.csprojResolveAssemblyReference.cache
+G:/Events/Events/Connection/obj/Debug/Connection.dll
+G:/Events/Events/Connection/obj/Debug/Connection.pdb
+/Volumes/USB /Events/Events/Connection/obj/Debug/Connection.csprojResolveAssemblyReference.cache
+/Volumes/USB /Events/Events/Connection/obj/Debug/Connection.csproj.CoreCompileInputs.cache
+/Volumes/USB /Events/Events/Connection/obj/Debug/Connection.dll
+/Volumes/USB /Events/Events/Connection/obj/Debug/Connection.pdb
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Connection/bin/Debug/Connection.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Connection/bin/Debug/Connection.pdb
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Connection/obj/Debug/Connection.csprojResolveAssemblyReference.cache
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Connection/obj/Debug/Connection.csproj.CoreCompileInputs.cache
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Connection/obj/Debug/Connection.dll
+/Users/macair/Documents/Visual Studio 2017/Events/Events/Connection/obj/Debug/Connection.pdb
