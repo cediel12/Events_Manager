@@ -395,7 +395,7 @@ Delimiter $$
 
 CREATE PROCEDURE `insert_VistasYRoles`
 (
-	`fk_Vista` INT,
+	`fk_SubVista` INT,
 	`fk_Rol` INT
 )
 BEGIN
@@ -407,7 +407,7 @@ BEGIN
 			FROM 
 				`Sub_Vistas` AS v 
 			WHERE
-				`fk_Vista` = v.`id_SubVista`
+				`fk_SubVista` = v.`id_SubVista`
 		);
 	DECLARE
 		`fk_r` INT DEFAULT
@@ -428,7 +428,7 @@ BEGIN
 			VALUES
 			(
 				1,
-				`fk_Vista`,
+				`fk_SubVista`,
 				`fk_Rol`
 			);
 	END IF;
@@ -523,5 +523,4 @@ BEGIN
 
 END;
 
-$$ Delimiter ;
-
+$$ Delimiter;

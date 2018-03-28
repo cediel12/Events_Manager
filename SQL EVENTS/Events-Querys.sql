@@ -11,8 +11,8 @@ COMMIT;
 
 #Rol
 BEGIN;
-CALL insert_Rol('Usuario');
 CALL insert_Rol('Administrador');
+CALL insert_Rol('Usuario');
 COMMIT;
 
 #Peoples
@@ -28,14 +28,14 @@ CALL insert_Usuario('jualvali@live.com','phurion123',1);
 COMMIT;
 
 BEGIN;
-CALL insert_Vistas('#','DashBoard','now-ui-icons ');
-CALL insert_Vistas('#','Gestionar Usuarios','now-ui-icons ');
-CALL insert_Vistas('#','Gestionar Recursos','now-ui-icons ');
-CALL insert_Vistas('#','Gestionar Eventos','now-ui-icons ');
-CALL insert_Vistas('#','Gestionar Asistencia','now-ui-icons ');
-CALL insert_Vistas('#','Gestionar Roles','now-ui-icons ');
-CALL insert_Vistas('#','Gestionar Pagos','now-ui-icons ');
-CALL insert_Vistas('#','Generar Certificados','now-ui-icons ');
+CALL insert_Vistas('#','DashBoard','now-ui-icons business_badge');
+CALL insert_Vistas('#','Gestionar Usuarios','now-ui-icons users_single-02');
+CALL insert_Vistas('#','Gestionar Recursos','now-ui-icons ui-2_settings-90');
+CALL insert_Vistas('#','Gestionar Eventos','now-ui-icons ui-1_calendar-60');
+CALL insert_Vistas('#','Gestionar Asistencia','now-ui-icons files_paper');
+CALL insert_Vistas('#','Gestionar Roles','now-ui-icons media-2_sound-wave');
+CALL insert_Vistas('#','Gestionar Pagos','now-ui-icons shopping_tag-content');
+CALL insert_Vistas('#','Generar Certificados','now-ui-icons files_single-copy-04');
 COMMIT;
 
 BEGIN;

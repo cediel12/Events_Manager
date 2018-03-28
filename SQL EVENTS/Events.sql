@@ -90,12 +90,10 @@ DROP TABLE IF EXISTS `Vistas_Roles`;
 
 CREATE TABLE `Vistas_Roles`
 (
-	`Estado` NUMERIC ( 1 ) NOT NULL,
-	`fk_Vista` INT NOT NULL,
+	`Estado` NUMERIC ( 1 ) NOT NULL CHECK(`Estado` IN (1,0)),
+	`fk_SubVista` INT NOT NULL,
 	`fk_Rol` INT NOT NULL
 );
-
-
 
 ALTER TABLE `Vistas_Roles` ADD CONSTRAINT `Rol_fkk` FOREIGN KEY ( `fk_Rol` ) REFERENCES `Rol` ( `id_Rol` );
 
@@ -112,7 +110,8 @@ CREATE TABLE `Sub_Vistas`
 )ENGINE = InnoDB DEFAULT CHARSET = latin1;
 
 ALTER TABLE `Sub_Vistas` ADD CONSTRAINT `Sub_vistas_FK` FOREIGN KEY ( `fk_Vista` ) REFERENCES `Vistas` ( `id_Vista` );
-ALTER TABLE `Vistas_Roles` ADD CONSTRAINT `Vista_fkk` FOREIGN KEY ( `fk_Vista` ) REFERENCES `Sub_Vistas` ( `id_SubVista` );
+
+ALTER TABLE `Vistas_Roles` ADD CONSTRAINT `subVista_fkk` FOREIGN KEY ( `fk_SubVista` ) REFERENCES `Sub_Vistas` ( `id_SubVista` );
 
 DROP TABLE IF EXISTS `Event`;
 #Falta procedimiento
