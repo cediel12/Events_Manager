@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using Connection;
 
 namespace Events.Models
 {
-   public class People_Model
+    public class People_Model
     {
-        private connection conn = new connection();
+        Services.People_Service ps = new Services.People_Service();
         public string Fecha_Nacimiento { get; set; }
         public int Identificacion { get; set; }
         public string Nombre1 { get; set; }
@@ -23,11 +22,13 @@ namespace Events.Models
 
         public System.Data.DataTable queryGenero()
         {
-            return conn.EjecutarConsulta("SELECT Tipo FROM Genero");
+            return ps.queryGenero();
         }
-        Services.People_Service ps = new Services.People_Service();
 
-        public bool createPeople(){
+
+
+        public bool createPeople()
+        {
             return ps.CrearPersona(this);
         }
     }
