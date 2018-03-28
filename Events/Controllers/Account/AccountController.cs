@@ -13,7 +13,7 @@ namespace Events.Controllers
         // GET: acoount
         public ActionResult Index()
         {
-            //@ViewBag.menu= mi.MiMenu(mi.obtFk(Session["Email"].ToString()));
+            @ViewBag.menu= mi.GetMenu(mi.obtFk(Session["Email"].ToString()));
            // @ViewBag.hola = aux.getParameter()[0];
             if(Convert.ToString(Session["control"])=="Login"){
                 return View(); 
