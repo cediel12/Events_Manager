@@ -168,7 +168,7 @@ BEGIN
 				`Apellido1`,
 				`Apellido2`,
 				`Telefono`,
-				1,
+				'Activo',
 				`fk_genero`
 			) ;
 	END	IF ;
@@ -228,7 +228,7 @@ BEGIN
 				`Email`,
 				PASSWORD( `contraseña` ),
 				CURDATE(),
-				1,
+				'Activo',
 				`fk_Persona`,
 				1
 			) ;
@@ -290,7 +290,7 @@ DECLARE
 				`Email`,
 				PASSWORD( `contraseña` ),
 				CURDATE(),
-				1,
+				'Activo',
 				`fk_Persona`,
 				2
 			) ;
@@ -336,7 +336,7 @@ BEGIN
 			(
 				`id`,
 				`Nombre`,
-				1
+				'Activo'
 			) ;
 	END IF;
 END ;
@@ -382,7 +382,7 @@ BEGIN
 				`Url`,
 				`Titulo`,
 				`Fabicon`,
-				1
+				'Activa'
 			) ;
 	END	IF ;
 END ;
@@ -427,7 +427,7 @@ BEGIN
 			INSERT INTO `Vistas_Roles` 
 			VALUES
 			(
-				1,
+				'Activo',
 				`fk_SubVista`,
 				`fk_Rol`
 			);
@@ -487,7 +487,7 @@ BEGIN
 				`Url`,
 				`Titulo`,
 				`fk_vistas`,
-				1
+				'Activa'
 			) ;
 	END	IF ;
 END ;
@@ -519,6 +519,10 @@ BEGIN
 		u.`Email` = `Email` 
 		AND 
 		u.PASSWORD = PASSWORD( `contra` )
+		AND
+		u.`Estado` = 'Activo'
+		AND
+		p.`Estado` = 'Activo'
 	);  
 
 END;
