@@ -23,8 +23,8 @@ COMMIT;
 
 #Users 
 BEGIN;
-CALL insert_User_admin('Angelapena2018@Gmail.com','admin',2); 
-CALL insert_Usuario('jualvali@live.com','phurion123',1);
+CALL insert_User_admin('Angelapena2018@Gmail.com','admin',1); 
+CALL insert_Usuario('jualvali@live.com','phurion123',2);
 COMMIT;
 
 BEGIN;
