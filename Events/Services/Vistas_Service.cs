@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using Connection;
 using Events.Models;
+
 namespace Events.Services
 {
     public class Vistas_Service
@@ -16,17 +17,24 @@ namespace Events.Services
 
         public bool CreateVista(Vistas_Model vm)
         {
-            return con.EjecutarOperacion("CALL insert_Vistas('"+vm.Url+"','"+vm.Titulo+"','"+vm.Fabicon +"')");
+            try
+            {
+                return con.EjecutarOperacion("CALL insert_Vistas('" + vm.Url + "','" + vm.Titulo + "','" + vm.Fabicon + "')");
+            }
+            catch (Exception)
+            {
+                return false;
+            }
         }
 
         public bool DeleteVista(string titulo)
         {
-            return con.EjecutarOperacion("UPDATE  Vistas set Estado=0 WHERE Titulo='"+titulo+"';");
+            return con.EjecutarOperacion("UPDATE  Vistas set Estado='Inactiva' WHERE Titulo='" + titulo + "';");
         }
 
         public bool UpdateVista(string titulo)
         {
-            return con.EjecutarOperacion("UPDATE  Vistas set Estado=1 WHERE Titulo='" + titulo + "';");
+            return con.EjecutarOperacion("UPDATE  Vistas set Estado='Activa' WHERE Titulo='" + titulo + "';");
         }
     }
 }

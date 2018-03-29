@@ -17,20 +17,14 @@ namespace Events.Models
             return user.Register(this, fk);
         }
 
-
         public bool login()
         {
             return user.Login(this);
         }
 
-
         public System.Data.DataTable GetAllUsers()
         {
             return user.GetAllUsers();
-        }
-        public System.Data.DataTable GetAllPeople()
-        {
-            return user.GetAllPeople();
         }
     }
 }

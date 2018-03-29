@@ -9,7 +9,7 @@ namespace Events.Services
 {
     public class People_Service
     {
-
+        private connection conn = new connection();
         public bool CrearPersona(People_Model pm)
         {
             try
@@ -23,12 +23,15 @@ namespace Events.Services
             {
                 return false;
             }
-            //return pm.Fecha_Nacimiento;
         }
         public System.Data.DataTable queryGenero()
         {
             return conn.EjecutarConsulta("SELECT Tipo FROM Genero");
         }
-        private connection conn = new connection();
+
+        public System.Data.DataTable GetAllPeople()
+        {
+            return conn.EjecutarConsulta("SELECT * FROM Persona as p inner join Genero as g on g.id_Genero=p.fk_genero");
+        }
     }
 }

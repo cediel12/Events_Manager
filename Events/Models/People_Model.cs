@@ -25,11 +25,14 @@ namespace Events.Models
             return ps.queryGenero();
         }
 
-
-
         public bool createPeople()
         {
             return ps.CrearPersona(this);
+        }
+
+        public System.Data.DataTable GetAllPeople()
+        {
+            return ps.GetAllPeople();
         }
     }
 }

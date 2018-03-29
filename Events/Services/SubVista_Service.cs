@@ -16,17 +16,23 @@ namespace Events.Services
 
         public bool CreateSubVista(SubVista_Model svm)
         {
-            return con.EjecutarOperacion("CALL insert_Vistas('" + svm.Url + "','" + svm.Titulo + "','" + svm.fk_Vistas + "')");
+            try
+            {
+                return con.EjecutarOperacion("CALL insert_SubVistas('" + svm.Url + "','" + svm.Titulo + "','" + svm.fk_Vistas + "')");
+            }
+            catch (Exception) {
+                return false;
+            }
         }
 
         public bool DeleteSubVista(string titulo)
         {
-            return con.EjecutarOperacion("UPDATE  SubVistas set Estado=0 WHERE Titulo='" + titulo + "';");
+            return con.EjecutarOperacion("UPDATE  SubVistas set Estado='Inactiva' WHERE Titulo='" + titulo + "';");
         }
 
         public bool UpdateSubVista(string titulo)
         {
-            return con.EjecutarOperacion("UPDATE  SubVistas set Estado=1 WHERE Titulo='" + titulo + "';");
+            return con.EjecutarOperacion("UPDATE  SubVistas set Estado='Activa' WHERE Titulo='" + titulo + "';");
         }
     }
 }

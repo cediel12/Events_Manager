@@ -9,10 +9,7 @@ namespace Events.Services
 {
     public class User_Service
     {
-
         private connection conn = new connection();
-
-
 
         public bool Register(User_Model usr, int fk)
         {
@@ -37,13 +34,5 @@ namespace Events.Services
         {
             return conn.EjecutarConsulta("SELECT * FROM Usuario as s inner join Persona as p on p.id_Persona = s.fk_Persona inner join Genero as g on g.id_Genero=p.fk_genero");
         }
-
-        public System.Data.DataTable GetAllPeople()
-        {
-            return conn.EjecutarConsulta("SELECT * FROM Persona as p inner join Genero as g on g.id_Genero=p.fk_genero");
-        }
-
-
-
     }
 }
