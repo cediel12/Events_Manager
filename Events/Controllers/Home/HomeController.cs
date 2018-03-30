@@ -9,7 +9,6 @@ namespace Events.Controllers
 {
     public class HomeController : Controller
     {
-        
         [HttpGet]
         public ActionResult Index()
         {
@@ -38,7 +37,7 @@ namespace Events.Controllers
         {
             Session["Email"] = "";
             Session["control"] = "Logout";
-            ViewBag.res = 1;
+            ViewBag.respuesta = 1;
             return View();
         }
 
@@ -49,11 +48,11 @@ namespace Events.Controllers
             {
                 Session["Email"] = usr.Email;
                 Session["control"] = "Login";
-                ViewBag.res = 1;
+                ViewBag.respuesta = 1;
                 return RedirectToAction("../account/Index");
             }
             else {
-                ViewBag.res = 0;
+                ViewBag.respuesta = 0;
                 return View();
             }
        
