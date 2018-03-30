@@ -7,7 +7,7 @@ input[1].onkeyup = function () {// password para q no meta espacios
 }
 
 function email() {//email
-    var patron = /^([a-z]+[a-z1-9._-]*)@{1}([a-z1-9\.]{2,})\.([a-z]{2,3})$/;
+    var patron = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
     if (input[0].value.search(patron)) {
         input[0].parentNode.removeAttribute('data-validate');
         input[0].parentNode.setAttribute('data-validate', 'Email Incorrecto');
