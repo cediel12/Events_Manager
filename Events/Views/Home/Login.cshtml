@@ -4,6 +4,7 @@
     ViewBag.Title = "Login";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
 <div class="page-header" filter-color="orange">
     <div class="page-header-image" style=""></div>
     <div class="container">
@@ -33,14 +34,12 @@
                     <div class="footer text-center">
                         <input type="submit" class="btn btn-primary btn-round btn-lg btn-block" value="Login" id="btn" onclick="return chekear();">
                     </div>
-                        <div class="pull-left">
-                            <h6>
-                                <a href="~/Home/Sign_up" class="link" target="_blank">Crear Cuenta</a>
-                            </h6>
-                        </div>
-
+                    <div class="pull-left">
+                        <h6>
+                            <a href="~/Home/Sign_up" class="link" target="_blank">Crear Cuenta</a>
+                        </h6>
+                    </div>
                 }
-
             </div>
         </div>
     </div>
@@ -66,12 +65,14 @@
     </div>
 </div>
 <button id="mdl" data-toggle="modal" data-target="#myModal1" style="visibility:hidden;"></button>
-
-
-<script>
-    document.getElementById('btn').addEventListener("click", () => {
-        if (@ViewBag.res==1) {
-            document.getElementById('mdl').click();
-        }
-    });
-</script>
+@{
+    if (ViewBag.respuesta == 0)
+    {
+        <script>
+            window.onload = () => {
+                var t = document.getElementById('mdl');
+                t.click();
+            }
+        </script>
+    }
+}
