@@ -1,41 +1,38 @@
 ﻿@model Events.Models.User_Model
 
-
 @{
     ViewBag.Title = "Login";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
 <div class="page-header" filter-color="orange">
     <div class="page-header-image" style=""></div>
     <div class="container">
         <div class="col-md-4 content-center">
             <div class="card card-login card-plain">
-
-                @using (Html.BeginForm("Login", "Home", FormMethod.Post, new { @Class = "form" }))
+                @using (Html.BeginForm("Login", "Home", FormMethod.Post, new { @Class = "form validate-form", @id = "validate-form" }))
                 {
                     <div class="header header-primary text-center">
                         <div class="logo-container">
                             <img src="~/Content/Img/now-ui-kit/now-logo.png" alt="">
                         </div>
                     </div>
-                        <div class="content">
-                            <div class="input-group form-group-no-border input-lg">
-                                <span class="input-group-addon">
-                                    <i class="now-ui-icons users_circle-08"></i>
-                                </span>
-                                <input type="text" class="form-control" placeholder="E-mail" name="Email">
-                            </div>
-                            <div class="input-group form-group-no-border input-lg">
-                                <span class="input-group-addon">
-                                    <i class="now-ui-icons text_caps-small"></i>
-                                </span>
-                                <input type="password" placeholder="Contraseña" class="form-control" name="Password" />
-                            </div>
+                    <div class="content">
+                        <div class="input-group form-group-no-border input-lg validate-input" data-validate="E-Mail is required">
+                            <span class="input-group-addon">
+                                <i class="now-ui-icons users_circle-08"></i>
+                            </span>
+                            <input type="text" class="form-control input100" placeholder="E-mail" name="Email">
                         </div>
-                        <div class="footer text-center">
-                            <input type="submit" class="btn btn-primary btn-round btn-lg btn-block" value="Login">
+                        <div class="input-group form-group-no-border input-lg validate-input" data-validate="Password is required">
+                            <span class="input-group-addon">
+                                <i class="now-ui-icons text_caps-small"></i>
+                            </span>
+                            <input type="password" placeholder="Contraseña" class="form-control input100" name="Password" />
                         </div>
+                    </div>
+                    <div class="footer text-center">
+                        <input type="submit" class="btn btn-primary btn-round btn-lg btn-block" value="Login" id="btn" onclick="return chekear();">
+                    </div>
                         <div class="pull-left">
                             <h6>
                                 <a href="~/Home/Sign_up" class="link" target="_blank">Crear Cuenta</a>
@@ -44,10 +41,37 @@
 
                 }
 
-
             </div>
         </div>
     </div>
     <footer class="footer"></footer>
 </div>
+<script src="~/Scripts/Validation/main.js"></script>
+<script src="~/Scripts/Validation/Login.js"></script>
+<div class="modal fade modal-mini" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header justify-content-center">
+                <div class="modal-profile">
+                    <i class="now-ui-icons users_circle-08"></i>
+                </div>
+            </div>
+            <div class="modal-body">
+                <p>Las credenciales no coinciden con ningun usuario, por favor verifique las mismas</p>
+            </div>
+            <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Aceptar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<button id="mdl" data-toggle="modal" data-target="#myModal1" style="visibility:hidden;"></button>
 
+
+<script>
+    document.getElementById('btn').addEventListener("click", () => {
+        if (@ViewBag.res==1) {
+            document.getElementById('mdl').click();
+        }
+    });
+</script>
