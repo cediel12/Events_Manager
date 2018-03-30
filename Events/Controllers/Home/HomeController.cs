@@ -25,8 +25,7 @@ namespace Events.Controllers
 
         [HttpPost]
         public ActionResult Sign_up(People_Model pm) {
-            //ViewBag.test=Request["Email"];
-           
+            //ViewBag.test=Request["Email"]; 
             if(pm.createPeople()){
                 return RedirectToAction("../Home/Login");
             }else{
@@ -39,6 +38,7 @@ namespace Events.Controllers
         {
             Session["Email"] = "";
             Session["control"] = "Logout";
+            ViewBag.res = 1;
             return View();
         }
 
@@ -49,9 +49,11 @@ namespace Events.Controllers
             {
                 Session["Email"] = usr.Email;
                 Session["control"] = "Login";
+                ViewBag.res = 1;
                 return RedirectToAction("../account/Index");
             }
             else {
+                ViewBag.res = 0;
                 return View();
             }
        
