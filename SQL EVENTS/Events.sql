@@ -152,3 +152,14 @@ CREATE TABLE `Campus`(
 	`Nombre` VARCHAR ( 200 ) NOT NULL,
 	`Direccion` VARCHAR ( 150 ) NOT NULL
 )ENGINE = InnoDB DEFAULT CHARSET = latin1 COMMENT = "Tabla para los campus de la empresa";
+
+DROP TABLE IF EXISTS `Ubicacion`;
+#Falta procedimiento
+CREATE TABLE `Ubicacion`
+(
+	`id_Ubicacion` INT NOT NULL PRIMARY KEY,
+	`Ubicacion` VARCHAR ( 60 ) NOT NULL,
+	`fk_Campus` INT NOT NULL
+)
+ENGINE = InnoDB DEFAULT CHARSET = latin1 COMMENT = "Tabla para lugar especifico";
+ALTER TABLE `Ubicacion` ADD CONSTRAINT `referencia_campus` FOREIGN KEY ( `fk_Campus` ) REFERENCES `Campus` ( `id_Campus` );
