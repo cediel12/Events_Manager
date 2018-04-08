@@ -19,6 +19,7 @@ namespace Events.Controllers
         public ActionResult Sign_up() {
             People_Model people = new People_Model();
             ViewBag.genero = people.queryGenero();
+            ViewBag.respuesta = 1;
             return View();
         }
 
@@ -26,9 +27,11 @@ namespace Events.Controllers
         public ActionResult Sign_up(People_Model pm) {
             //ViewBag.test=Request["Email"]; 
             if(pm.createPeople()){
+                ViewBag.respuesta = 1;
                 return RedirectToAction("../Home/Login");
             }else{
                 ViewBag.genero = pm.queryGenero();
+                ViewBag.respuesta = 0;
                 return View();
             }  
         }
