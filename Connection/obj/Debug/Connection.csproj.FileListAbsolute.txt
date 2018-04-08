@@ -32,3 +32,9 @@ G:/Events/Events/Connection/obj/Debug/Connection.pdb
 /Users/macair/Documents/Visual Studio 2017/Events/Events/Connection/obj/Debug/Connection.csproj.CoreCompileInputs.cache
 /Users/macair/Documents/Visual Studio 2017/Events/Events/Connection/obj/Debug/Connection.dll
 /Users/macair/Documents/Visual Studio 2017/Events/Events/Connection/obj/Debug/Connection.pdb
+/Users/macair/Documents/GitHub/Events_Manager/Connection/bin/Debug/Connection.dll
+/Users/macair/Documents/GitHub/Events_Manager/Connection/bin/Debug/Connection.pdb
+/Users/macair/Documents/GitHub/Events_Manager/Connection/obj/Debug/Connection.csprojResolveAssemblyReference.cache
+/Users/macair/Documents/GitHub/Events_Manager/Connection/obj/Debug/Connection.csproj.CoreCompileInputs.cache
+/Users/macair/Documents/GitHub/Events_Manager/Connection/obj/Debug/Connection.dll
+/Users/macair/Documents/GitHub/Events_Manager/Connection/obj/Debug/Connection.pdb

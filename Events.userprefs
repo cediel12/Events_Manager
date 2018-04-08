@@ -1,18 +1,5 @@
 ﻿<Properties StartupConfiguration="{016DF246-2CD9-4AEA-B864-D75D43B78A93}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Events/Scripts/now-ui-kit/popper.min.js">
-    <Files>
-      <File FileName="Events/Views/Shared/_Layout.cshtml" Line="91" Column="13" />
-      <File FileName="Events/Scripts/Bootstrap4/tether.min.js" Line="1" Column="1" />
-      <File FileName="Events/Scripts/now-ui-kit/now-ui-kit.js" Line="52" Column="5" />
-      <File FileName="Events/Scripts/now-ui-kit/popper.min.js" Line="25" Column="9" />
-      <File FileName="Events/Scripts/now-ui-kit/nouislider.min.js" Line="1" Column="1" />
-      <File FileName="Events/Scripts/Event/now-ui.min.js" Line="1" Column="1" />
-      <File FileName="Events/Scripts/Event/perfect-scrollbar.jquery.min.js" Line="1" Column="1" />
-      <File FileName="Events/Scripts/Bootstrap4/popper.min.js" Line="1" Column="1" />
-      <File FileName="Events/Scripts/Bootstrap4/jquery-3.1.1.slim.min.js" Line="1" Column="1" />
-      <File FileName="Events/Scripts/Bootstrap4/jquery.min.js" Line="1" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
