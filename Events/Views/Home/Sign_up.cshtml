@@ -9,55 +9,54 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="card col-md-8 col-lg-6 col-sm-10" data-background-color="orange" id="formulario">
-                @using (Html.BeginForm("Sign_up", "Home", FormMethod.Post, new { @Class = "form" }))
+                @using (Html.BeginForm("Sign_up", "Home", FormMethod.Post, new { @Class = "form validate-form" }))
                 {
                     <div class="header text-center col-12">
                         <h4 class="title title-up text-center">Sign Up</h4>
                     </div>
                     <hr />
                     <div class="form-inline ">
-                        <div class="input-group form-group-no-border col-md-6  col-sm-12">
+                        <div class="input-group form-group-no-border col-md-6  col-sm-12 validate-input" data-validate="Primer Nombre is required">
                             <span class="input-group-addon">
                                 <i class="now-ui-icons users_single-02"></i>
                             </span>
-                            <input type="text" class="form-control" placeholder="Primer Nombre" name="Nombre1" />
+                            <input type="text" class="form-control input100" placeholder="Primer Nombre" name="Nombre1" />
                         </div>
-                        <div class="input-group form-group-no-border col-md-6 col-sm-12">
+                        <div class="input-group form-group-no-border col-md-6 col-sm-12 validate-input">
                             <span class="input-group-addon">
                                 <i class="now-ui-icons users_single-02"></i>
                             </span>
-                            <input type="text" placeholder="Segundo Nombre" class="form-control" name="Nombre2" />
+                            <input type="text" placeholder="Segundo Nombre" class="form-control input100" name="Nombre2" />
                         </div>
-                        <div class="input-group form-group-no-border  col-md-6 col-sm-12">
+                        <div class="input-group form-group-no-border col-md-6 col-sm-12 validate-input" data-validate="Primer apellido is required">
                             <span class="input-group-addon">
                                 <i class="now-ui-icons users_circle-08"></i>
                             </span>
-                            <input type="text" placeholder="Primer Apellido" class="form-control" name="Apellido1"/>
+                            <input type="text" placeholder="Primer Apellido" class="form-control input100" name="Apellido1"/>
                         </div>
-                        <div class="input-group form-group-no-border  col-md-6 col-sm-12">
+                        <div class="input-group form-group-no-border col-md-6 col-sm-12 validate-input" >
                             <span class="input-group-addon">
                                 <i class="now-ui-icons users_circle-08"></i>
                             </span>
-                            <input type="text" placeholder="Segundo Apellido" class="form-control" name="Apellido2"/>
+                            <input type="text" placeholder="Segundo Apellido" class="form-control input100" name="Apellido2"/>
                         </div>
-                        <div class="input-group form-group-no-border  col-md-6 col-sm-12">
+                        <div class="input-group form-group-no-border col-md-6 col-sm-12 validate-input" data-validate="Identificación is required">
                             <span class="input-group-addon">
                                 <i class="now-ui-icons business_badge"></i>
                             </span>
-                            <input type="number" placeholder="Identificacion" class="form-control" name="Identificacion"/>
+                            <input type="number" placeholder="Identificación" class="form-control input100" name="Identificacion"/>
                         </div>
-                        <div class="input-group form-group-no-border  col-md-6 col-sm-12">
+                        <div class="input-group form-group-no-border  col-md-6 col-sm-12 validate-input" data-validate="Telefono is required">
                             <span class="input-group-addon">
                                 <i class="now-ui-icons education_atom"></i>
                             </span>
                             <input type="number" placeholder="Telefono" class="form-control" name="Telefono"/>
                         </div>
-                        <div class="input-group form-group-no-border   col-md-6 col-sm-12">
-                            <input class="form-control" type="date" id="example-date-input" value="1996-02-22" name="Fecha_Nacimiento">
+                        <div class="input-group form-group-no-border col-md-6 col-sm-12 validate-input" data-validate="Fecha-Nacimiento is required">
+                            <input class="form-control input100" type="date" id="example-date-input" value="1996-02-22" name="Fecha_Nacimiento">
                         </div>
-                        <div class="input-group form-group-no-border  col-md-6 col-sm-12">
-
-                            <select class="form-control" id="Genero" name="Genero">
+                        <div class="input-group form-group-no-border col-md-6 col-sm-12 validate-input">
+                            <select class="form-control input100" id="Genero" name="Genero" data-validate="Genero is required">
                                 <option>Seleccione Genero</option>
                                 @foreach (System.Data.DataRow row in ViewBag.genero.Rows)
                                 {
@@ -65,28 +64,27 @@
                                 }
                             </select>
                         </div>
-                        <div class="input-group form-group-no-border col-12">
+                        <div class="input-group form-group-no-border col-12 validate-input" data-validate="E-mail is required">
                             <span class="input-group-addon">
                                 <i class="now-ui-icons ui-1_email-85"></i>
                             </span>
-                            <input type="text" class="form-control" placeholder="Email..." name="Email" value="jualvali"/>
+                            <input type="text" class="form-control input100" placeholder="Email..." name="Email" />
                         </div>
-
-                        <div class="input-group form-group-no-border  col-md-6 col-sm-12">
+                        <div class="input-group form-group-no-border col-md-6 col-sm-12 validate-input" data-validate="Password is required">
                             <span class="input-group-addon">
                                 <i class="now-ui-icons text_caps-small"></i>
                             </span>
-                            <input type="password" placeholder="Contraseña" class="form-control" name="Password"/>
+                            <input type="password" placeholder="Contraseña" class="form-control input100" name="Password"/>
                         </div>
-                        <div class="input-group form-group-no-border  col-md-6 col-sm-12">
+                        <div class="input-group form-group-no-border col-md-6 col-sm-12 validate-input" data-validate="Password is required">
                             <span class="input-group-addon">
                                 <i class="now-ui-icons text_caps-small"></i>
                             </span>
-                            <input type="password" placeholder="Confirmar Contraseña" class="form-control" name="Password"/>
+                            <input type="password" placeholder="Confirmar Contraseña" class="form-control input100" name="Password"/>
                         </div>
                     </div>
                     <div class="footer text-center col-12">
-                        <input type="submit" class="btn btn-neutral btn-round btn-lg" value="Crear cuenta" /><br />
+                        <input type="submit" class="btn btn-neutral btn-round btn-lg" value="Crear cuenta" id="btn" onclick="return chekear();"/><br />
                     </div>
 
                 }
@@ -96,3 +94,35 @@
         </div>
     </div>
 </div>
+
+
+
+<div class="modal fade modal-mini" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header justify-content-center">
+                <div class="modal-profile">
+                    <i class="now-ui-icons users_circle-08"></i>
+                </div>
+            </div>
+            <div class="modal-body">
+                <p>Debe llenar todos los campos para poder registarce en el sistema</p>
+            </div>
+            <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Aceptar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<button id="mdl" data-toggle="modal" data-target="#myModal1" style="visibility:hidden;"></button>
+@{
+    if (ViewBag.respuesta == 0)
+    {
+        <script>
+            window.onload = () => {
+                var t = document.getElementById('mdl');
+                t.click();
+            }
+        </script>
+    }
+}
