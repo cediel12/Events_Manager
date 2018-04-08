@@ -102,7 +102,8 @@ CREATE TABLE `Sub_Vistas`
 	`Titulo` VARCHAR( 70 ) NOT NULL,
 	`fk_Vista` INT NOT NULL,
 	`Estado` ENUM ('Activa','Inactiva') NOT NULL
-)ENGINE = InnoDB DEFAULT CHARSET = latin1;
+)
+ENGINE = InnoDB DEFAULT CHARSET = latin1;
 
 ALTER TABLE `Sub_Vistas` ADD CONSTRAINT `Sub_vistas_FK` FOREIGN KEY ( `fk_Vista` ) REFERENCES `Vistas` ( `id_Vista` );
 
@@ -122,7 +123,8 @@ ALTER TABLE `Vistas_Roles` ADD CONSTRAINT `subVista_fkk` FOREIGN KEY ( `fk_SubVi
 
 DROP TABLE IF EXISTS `Type_Event`;
 #Falta procedimiento
-CREATE TABLE `Type_Event`(
+CREATE TABLE `Type_Event`
+(
 	`id_TypeEvent` INT NOT NULL PRIMARY KEY,
 	`TipoDeEvento` VARCHAR ( 50 ) NOT NULL,
 	`DescriptionType` VARCHAR ( 400 ) NOT NULL
@@ -147,11 +149,13 @@ ALTER TABLE `Event` ADD CONSTRAINT `TipoEvento` FOREIGN KEY ( `fk_type` ) REFERE
 
 DROP TABLE IF EXISTS `Campus`;
 #Falta procedimiento
-CREATE TABLE `Campus`(
+CREATE TABLE `Campus`
+(
 	`id_Campus` INT NOT NULL PRIMARY KEY,
 	`Nombre` VARCHAR ( 200 ) NOT NULL,
 	`Direccion` VARCHAR ( 150 ) NOT NULL
-)ENGINE = InnoDB DEFAULT CHARSET = latin1 COMMENT = "Tabla para los campus de la empresa";
+)
+ENGINE = InnoDB DEFAULT CHARSET = latin1 COMMENT = "Tabla para los campus de la empresa";
 
 DROP TABLE IF EXISTS `Ubicacion`;
 #Falta procedimiento
