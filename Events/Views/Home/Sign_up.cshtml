@@ -57,7 +57,7 @@
                         </div>
                         <div class="input-group form-group-no-border col-md-6 col-sm-12 validate-input">
                             <select class="form-control input100" id="Genero" name="Genero" data-validate="Genero is required">
-                                <option>Seleccione Genero</option>
+                                <option>Seleccione</option>
                                 @foreach (System.Data.DataRow row in ViewBag.genero.Rows)
                                 {
                                     <option value=@row["Tipo"]>@row["Tipo"]</option>
@@ -126,3 +126,5 @@
         </script>
     }
 }
+
+<script src="~/Scripts/Validation/Sign_up.js"></script>
