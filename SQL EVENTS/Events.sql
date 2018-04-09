@@ -92,7 +92,6 @@ CREATE TABLE `Vistas`
 ENGINE = InnoDB DEFAULT CHARSET = latin1 COMMENT = "Item del menu dinamico";
 
 
-#Listo
 DROP TABLE IF EXISTS Sub_Vistas;
 
 CREATE TABLE `Sub_Vistas`
@@ -106,6 +105,7 @@ CREATE TABLE `Sub_Vistas`
 ENGINE = InnoDB DEFAULT CHARSET = latin1;
 
 ALTER TABLE `Sub_Vistas` ADD CONSTRAINT `Sub_vistas_FK` FOREIGN KEY ( `fk_Vista` ) REFERENCES `Vistas` ( `id_Vista` );
+
 
 DROP TABLE IF EXISTS `Vistas_Roles`;
 
@@ -130,6 +130,7 @@ CREATE TABLE `Type_Event`
 	`DescriptionType` VARCHAR ( 400 ) NOT NULL
 )ENGINE = InnoDB DEFAULT CHARSET = latin1 COMMENT = 'Table type of event';
 
+
 DROP TABLE IF EXISTS `Event`;
 #Falta procedimiento
 CREATE TABLE `Event`
@@ -147,6 +148,7 @@ ENGINE = InnoDB DEFAULT CHARSET = latin1 COMMENT = "Tabla para Eventos";
 ALTER TABLE `Event` ADD CONSTRAINT `referenciadeusuario` FOREIGN KEY ( `fk_user` ) REFERENCES `Usuario` ( `id_Usuario` );
 ALTER TABLE `Event` ADD CONSTRAINT `TipoEvento` FOREIGN KEY ( `fk_type` ) REFERENCES `Type_Event` ( `id_TypeEvent` );
 
+
 DROP TABLE IF EXISTS `Campus`;
 #Falta procedimiento
 CREATE TABLE `Campus`
@@ -157,6 +159,7 @@ CREATE TABLE `Campus`
 )
 ENGINE = InnoDB DEFAULT CHARSET = latin1 COMMENT = "Tabla para los campus de la empresa";
 
+
 DROP TABLE IF EXISTS `Ubicacion`;
 #Falta procedimiento
 CREATE TABLE `Ubicacion`
@@ -166,4 +169,5 @@ CREATE TABLE `Ubicacion`
 	`fk_Campus` INT NOT NULL
 )
 ENGINE = InnoDB DEFAULT CHARSET = latin1 COMMENT = "Tabla para lugar especifico";
+
 ALTER TABLE `Ubicacion` ADD CONSTRAINT `referencia_campus` FOREIGN KEY ( `fk_Campus` ) REFERENCES `Campus` ( `id_Campus` );
