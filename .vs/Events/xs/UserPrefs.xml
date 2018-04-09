@@ -1,11 +1,7 @@
 ﻿<Properties StartupConfiguration="{016DF246-2CD9-4AEA-B864-D75D43B78A93}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Events/Views/Home/Login.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Events/Views/Home/About.cshtml">
     <Files>
-      <File FileName="Events/Scripts/Validation/Sign_up.js" Line="53" Column="6" />
-      <File FileName="Events/Scripts/Validation/main.js" Line="15" Column="24" />
-      <File FileName="Events/Scripts/Validation/Login.js" Line="1" Column="1" />
-      <File FileName="Events/Views/Home/Sign_up.cshtml" Line="130" Column="14" />
-      <File FileName="Events/Views/Home/Login.cshtml" Line="48" Column="14" />
+      <File FileName="Events/Views/Home/About.cshtml" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

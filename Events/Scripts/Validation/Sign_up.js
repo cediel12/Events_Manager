@@ -95,7 +95,7 @@ function fecha() {
 }
 
 function Genero() {
-    if (input[7].value != 'Seleccione') {
+    if (input[7].value != "Seleccione") {
         return true;
     } else {
         input[7].parentNode.removeAttribute('data-validate');
