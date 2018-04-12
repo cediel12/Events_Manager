@@ -127,7 +127,8 @@ CREATE TABLE `Type_Event`
 (
 	`id_TypeEvent` INT NOT NULL PRIMARY KEY,
 	`TipoDeEvento` VARCHAR ( 50 ) NOT NULL,
-	`DescriptionType` VARCHAR ( 400 ) NOT NULL
+	`DescriptionType` VARCHAR ( 400 ) NOT NULL,
+	`Estado` ENUM( 'Activo','Inactivo' )
 )ENGINE = InnoDB DEFAULT CHARSET = latin1 COMMENT = 'Table type of event';
 
 
@@ -171,3 +172,58 @@ CREATE TABLE `Ubicacion`
 ENGINE = InnoDB DEFAULT CHARSET = latin1 COMMENT = "Tabla para lugar especifico";
 
 ALTER TABLE `Ubicacion` ADD CONSTRAINT `referencia_campus` FOREIGN KEY ( `fk_Campus` ) REFERENCES `Campus` ( `id_Campus` );
+
+DROP TABLE IF EXISTS `Recurso_Fisico`;
+#Falta Procedimiento
+CREATE TABLE `Recurso_Fisico`
+(
+	`id_RecursoFisico` INT NOT NULL PRIMARY KEY,
+	`Identificador` VARCHAR ( 80 ) NOT NULL,
+	`Capacidad` INT NOT NULL,
+	`Estado` ENUM ( 'Activo','Inactivo' ),
+	`fk_Ubicacion` INT NOT NULL
+)
+ENGINE = InnoDB DEFAULT CHARSET = latin1 COMMENT = "Salon Especifico (numero 7201 example)"; 
+
+ALTER TABLE `Recurso_Fisico` ADD CONSTRAINT `UbicacionDeRecurso` FOREIGN KEY ( `fk_Ubicacion` ) REFERENCES `Ubicacion` ( `id_Ubicacion` );
+
+DROP TABLE IF EXISTS `Elementos`;
+#Falta Procedimiento
+CREATE TABLE `Elementos`
+(
+	`id_Elementos` INT NOT NULL PRIMARY KEY,
+	`Elemento` VARCHAR ( 90 ) NOT NULL,
+	`Cantidad` INT NOT NULL
+)
+ENGINE = InnoDB DEFAULT CHARSET = latin1 COMMENT = "Elementos especificos y cantidad disponible";
+
+
+DROP TABLE IF EXISTS `Dotacion`;
+#Falta Procedimiento
+CREATE TABLE `Dotacion`
+(
+	`id_Dotacion` INT NOT NULL PRIMARY KEY,
+	`Cantidad` INT NOT NULL,
+	`fk_Elementos` INT NOT NULL,
+	`fk_RecursoFisico` INT NOT NULL
+)
+ENGINE = InnoDB DEFAULT CHARSET = latin1 COMMENT = "Cantidad de elementos de cada recurso fisico";
+
+ALTER TABLE `Dotacion` ADD CONSTRAINT `ELementosDeCadaSala` FOREIGN KEY ( `fk_Elementos` ) REFERENCES `Elementos` ( `id_Elementos` );
+ALTER TABLE `Dotacion` ADD CONSTRAINT `RecursoFisicoConDotacion` FOREIGN KEY ( `fk_RecursoFisico` ) REFERENCES `Recurso_Fisico` ( `id_RecursoFisico` );
+
+
+DROP TABLE IF EXISTS `Cronograma`;
+#Falta Procedimiento
+CREATE TABLE `Cronograma`
+(
+	`id_Cronograma` INT NOT NULL PRIMARY KEY,
+	`HoraInicio` DATETIME NOT NULL,
+	`HoraFin` DATETIME NOT NULL,
+	`fk_RecursoFisico` INT NOT NULL,
+	`fk_Evento` INT NOT NULL
+)
+ENGINE = InnoDB DEFAULT CHARSET = latin1 COMMENT = "Cronograma para cada sala";
+
+ALTER TABLE `Cronograma` ADD CONSTRAINT `QUesalaQUeHora` FOREIGN KEY ( `fk_RecursoFisico` ) REFERENCES `Recurso_Fisico` ( `id_RecursoFisico` );
+ALTER TABLE `Cronograma` ADD CONSTRAINT `ForaneaDeEvento` FOREIGN KEY ( `fk_Evento` ) REFERENCES `Event` ( `id_Event` );

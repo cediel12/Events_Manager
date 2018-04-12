@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Events/Views/Home/About.cshtml">
     <Files>
       <File FileName="Events/Views/Home/Sign_up.cshtml" Line="64" Column="34" />
-      <File FileName="Events/Views/Home/About.cshtml" Line="67" Column="43" />
+      <File FileName="Events/Views/Home/About.cshtml" Line="67" Column="42" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
